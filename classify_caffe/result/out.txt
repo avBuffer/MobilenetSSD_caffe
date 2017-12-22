@@ -1,0 +1,9 @@
+image/000001.jpg,person,0.989377,27,20,324,494
+image/000067.jpg,aeroplane,0.989904,14,77,462,206
+image/000456.jpg,bus,0.997755,86,41,413,303
+image/004545.jpg,car,0.755961,6,101,128,196
+image/004545.jpg,horse,0.680912,327,117,433,336
+image/big_bird.jpg,aeroplane,0.561772,60,95,373,258
+image/big_bird.jpg,bird,0.617094,45,81,388,266
+image/cat.jpg,dog,0.766935,159,28,362,342
+image/fish-bike.jpg,person,0.69678,199,16,326,164
