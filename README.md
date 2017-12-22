@@ -55,11 +55,11 @@ cd MobilenetSSD_caffe
   * Step2: Build APK in Android Studio, and install APK into Smartphone
   * Step3: Create caffe/mobilenet folder in Smartphone SDCard
       ```shell
-      cd MobilenetSSD_caffe/MobilenetSSD_APP_demo
+      cd MobilenetSSD_caffe/classify_caffe/model/mobile/
       adb shell mkdir caffe
       adb shell mkdir caffe/mobilenet
-      adb push model/MobileNetSSD_deploy.caffemodel sdcard/caffe/mobilenet
-      adb push model/MobileNetSSD_deploy.prototxt sdcard/caffe/mobilenet
+      adb push MobileNetSSD_deploy.caffemodel sdcard/caffe/mobilenet
+      adb push MobileNetSSD_deploy.prototxt sdcard/caffe/mobilenet
       ```
   * Step4: You can run APP to select picture or take picture to detect objects
 
